@@ -21,3 +21,5 @@
 `assert_eq!(some_function(), "bar".to_string());` called from main inside `bin` will fail.
 
 I would expect with a `--release` flag set on the build that features exclusive to dev dependencies will not be included, but it looks like they are.
+
+I can't seem to get this to work with any combination of playing with default features, features, and dependencies. I'm not sure if I'm misunderstanding how features work, or if this is a bug.
